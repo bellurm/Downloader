@@ -12,6 +12,9 @@ githubRepos() {
 	echo -e "\n[!] Python tools will be downloaded.\n"
 	sleep 3
 	
+	git clone https://github.com/bellurm/wifi-connection-checker.git
+	echo -e "\n[*] Wi-Fi Connection Checker is installed.\n"
+
 	git clone https://github.com/bellurm/Network-Scanner.git
 	echo -e "\n[*] Network Scanner is installed.\n"
 	
@@ -56,6 +59,12 @@ githubRepos() {
 	
 	git clone https://github.com/bellurm/Monitoring-Directory.git
 	echo -e "\n[*] Monitoring Directory is installed.\n"
+
+	git clone https://github.com/bellurm/nmap-basics.git
+	echo -e "\n[*] NMAP Basics is installed.\n"
+
+	git clone https://github.com/bellurm/cw-network-attacker.git
+	echo -e "\n[*] CW Network Attacker is installed.\n"
 }
 
 
